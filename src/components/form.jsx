@@ -114,6 +114,16 @@ export default function Form() {
       alert("Must be a proper mobile phone number");
       return;
     }
+    if (passportNumber !== "") {
+      if (!isNumeric(passportNumber)) {
+        alert("Passport must only contain a number");
+        return;
+      }
+      if (passportNumber.length !== 9) {
+        alert("Passport must contain exactly 9 digit");
+        return;
+      }
+    }
     if (expectedSalary === "") {
       alert("Expected salary is require");
       return;
