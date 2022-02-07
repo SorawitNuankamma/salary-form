@@ -6,7 +6,6 @@ import { DesktopDatePicker } from "@mui/lab";
 import DateAdapter from "@mui/lab/AdapterLuxon";
 import LocalizationProvider from "@mui/lab/LocalizationProvider";
 import RadioButton from "./radioButton";
-import ExampleTable from "./exampleTable";
 import CustomSelector from "../components/customSelector";
 import { Button } from "@mui/material";
 import FormTable from "./formTable";
